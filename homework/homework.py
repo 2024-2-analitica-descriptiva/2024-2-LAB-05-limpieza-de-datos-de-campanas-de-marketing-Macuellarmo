@@ -171,7 +171,6 @@ def clean_campaign_data():
     #Guardar el archivo csv con los cambios
     df.to_csv('files/output/campaign.csv', index=False)
         
-
-
+        
 if __name__ == "__main__":
     clean_campaign_data()
